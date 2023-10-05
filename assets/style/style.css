@@ -41,7 +41,46 @@ main {
     color: rgb(229, 49, 112);
 }
 
+.first-paragraph {
+    margin-bottom: 30px;
+}
+
 .main-title,
 .first-paragraph {
     text-align: center;
+}
+
+/* Cards */
+.card {
+    background-color: rgb(15, 14, 23);
+    width: 300px;
+    height: 100px;
+}
+
+.card-info {
+    padding: 10px;
+}
+
+.card-photo {
+    height: 100%;
+    margin-right: 10px;
+}
+
+.card-name {
+    font-size: 20px;
+}
+
+.card-job {
+    font-size: 15px;
+    padding: 5px 0;
+}
+
+.card-email {
+    color: rgb(84, 204, 230);
+    font-size: 13px;
+}
+
+.card-name,
+.card-job {
+    color: white;
 }
